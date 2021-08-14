@@ -19,7 +19,7 @@ app.use('/api/riojanbars', barsRouter)
 //     res.send('inicio')
 // } );
 
-app.get('/api', (req, res) =>{
+app.get('/', (req, res) =>{
     res.json({
         ok: true, 
         msg: 'ruta de places'
