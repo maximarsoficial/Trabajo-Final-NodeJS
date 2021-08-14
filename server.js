@@ -19,10 +19,10 @@ app.use('/api/riojanbars', barsRouter)
 //     res.send('inicio')
 // } );
 
-app.get('/', (req, res) =>{
+app.get('/api/riojanbars', (req, res) =>{
     res.json({
         ok: true, 
-        msg: 'ruta de places'
+        msg: 'BACKEND EN HEROKU'
     });
 })
 
