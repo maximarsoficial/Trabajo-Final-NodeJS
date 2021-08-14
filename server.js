@@ -19,7 +19,7 @@ app.use('/api/riojanbars', barsRouter)
 //     res.send('inicio')
 // } );
 
-app.get('/api/riojanbars', (req, res) =>{
+app.get('/api', (req, res) =>{
     res.json({
         ok: true, 
         msg: 'BACKEND EN HEROKU'
